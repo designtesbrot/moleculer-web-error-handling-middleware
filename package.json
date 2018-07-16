@@ -1,0 +1,24 @@
+{
+  "name": "moleculer-web-error-handling-middleware",
+  "version": "1.0.0",
+  "description": "My Moleculer microservices project",
+  "scripts": {
+    "dev": "npm i && moleculer-runner --repl --hot services",
+    "start": "moleculer-runner"
+  },
+  "keywords": [
+    "microservices",
+    "moleculer"
+  ],
+  "author": "",
+  "devDependencies": {
+    "moleculer-repl": "^0.5.0"
+  },
+  "dependencies": {
+    "moleculer-web": "^0.8.0",
+    "moleculer": "^0.13.0"
+  },
+  "engines": {
+    "node": ">= 8.x.x"
+  }
+}
